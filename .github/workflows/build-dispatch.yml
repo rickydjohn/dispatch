@@ -19,4 +19,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           file: docker/Dockerfile
-          tags: rickydjohn/dispatch:latest
+          tags: rickydjohn/dispatch:v1.0.0
